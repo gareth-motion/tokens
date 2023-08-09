@@ -1,0 +1,816 @@
+[
+  {
+    "fileName": "Calendar.Light.tokens.json",
+    "body": {
+      "task": {
+        "bg": {
+          "free": {
+            "$type": "color",
+            "$value": "{event.free.bg}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.neutral.bg.strong.default}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.neutral.bg.strong.default}"
+          }
+        },
+        "icon": {
+          "busy": {
+            "$type": "color",
+            "$value": "{semantic.neutral.icon.onDark}"
+          },
+          "free": {
+            "$type": "color",
+            "$value": "{semantic.neutral.icon.default}"
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.neutral.text.onDark}"
+          },
+          "free": {
+            "$type": "color",
+            "$value": "{semantic.neutral.text.subtle}"
+          }
+        }
+      },
+      "event": {
+        "orange": {
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.orange.text.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.orange.text.onDark}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.orange.1100}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.orange.border.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.orange.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.orange.bg.strong.default}"
+            }
+          }
+        },
+        "pink": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.pink.text.onDark}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.pink.text.default}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.pink.1100}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.pink.border.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.pink.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.pink.bg.strong.default}"
+            }
+          }
+        },
+        "blue": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.blue.text.onDark}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.blue.text.default}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.blue.1100}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.blue.border.active}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.blue.border.subtle}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.blue.bg.strong.default}"
+            }
+          }
+        },
+        "green": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.success.text.onDark}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.success.text.default}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.green.1100}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.success.border.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.success.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.success.bg.strong.default}"
+            }
+          }
+        },
+        "red": {
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.error.text.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.text.onDark}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.red.1100}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.error.border.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.bg.strong.default}"
+            }
+          }
+        },
+        "teal": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.teal.text.onDark}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.teal.text.default}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.teal.border.active}"
+            },
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.teal.1100}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.teal.border.subtle}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.teal.bg.strong.default}"
+            }
+          }
+        },
+        "cyan": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.cyan.border.active}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.cyan.border.subtle}"
+            },
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.cyan.1100}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.cyan.text.onDark}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.cyan.text.default}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.cyan.bg.strong.default}"
+            }
+          }
+        },
+        "deepBlue": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.border.active}"
+            },
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.brand.1100}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.primary.border.subtle}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.bg.strong.default}"
+            }
+          },
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.primary.text.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.text.onDark}"
+            }
+          }
+        },
+        "purple": {
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.purple.text.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.purple.text.onDark}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.purple.1100}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.purple.border.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.purple.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.purple.bg.strong.default}"
+            }
+          }
+        },
+        "grey": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.text.onDark}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.neutral.text.subtle}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.neutral.1100}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.strong.default}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.strong.default}"
+            }
+          }
+        },
+        "free": {
+          "bg": {
+            "$type": "color",
+            "$value": "{bg}"
+          }
+        },
+        "yellow": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.border.active}"
+            },
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.yellow.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.warning.border.subtle}"
+            }
+          },
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{semantic.warning.text.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.text.onDark}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.bg.strong.default}"
+            }
+          }
+        }
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{semantic.neutral.bg.default}"
+      }
+    }
+  },
+  {
+    "fileName": "Calendar.Dark.tokens.json",
+    "body": {
+      "task": {
+        "bg": {
+          "free": {
+            "$type": "color",
+            "$value": "{event.free.bg}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{primitives.neutral.700}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.neutral.border.active}"
+          }
+        },
+        "icon": {
+          "busy": {
+            "$type": "color",
+            "$value": "{semantic.neutral.icon.onDark}"
+          },
+          "free": {
+            "$type": "color",
+            "$value": "{semantic.neutral.icon.onDark}"
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{primitives.neutral.1200}"
+          },
+          "free": {
+            "$type": "color",
+            "$value": "{primitives.neutral.1200}"
+          }
+        }
+      },
+      "event": {
+        "orange": {
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.orange.1200}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.orange.1200}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.orange.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.orange.border.strong}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.orange.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.orange.700}"
+            }
+          }
+        },
+        "pink": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.pink.1200}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.pink.1200}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.pink.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.pink.border.strong}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.pink.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.pink.700}"
+            }
+          }
+        },
+        "blue": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.blue.1200}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.blue.1200}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.blue.800}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.blue.border.active}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.blue.border.strong}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.blue.700}"
+            }
+          }
+        },
+        "green": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.green.1200}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.green.1200}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.green.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.success.border.strong}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.success.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.green.700}"
+            }
+          }
+        },
+        "red": {
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.red.1200}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.red.1200}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.red.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.error.border.strong}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.red.700}"
+            }
+          }
+        },
+        "teal": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.teal.1200}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.teal.1200}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.teal.border.active}"
+            },
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.teal.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.teal.border.strong}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.teal.700}"
+            }
+          }
+        },
+        "cyan": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.cyan.border.active}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.cyan.border.strong}"
+            },
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.cyan.800}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.cyan.1200}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.cyan.1200}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.cyan.700}"
+            }
+          }
+        },
+        "deepBlue": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.border.active}"
+            },
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.brand.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.primary.border.strong}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.brand.700}"
+            }
+          },
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.brand.1200}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.brand.1200}"
+            }
+          }
+        },
+        "purple": {
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.purple.1200}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.purple.1200}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.purple.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.purple.border.strong}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.purple.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.purple.700}"
+            }
+          }
+        },
+        "grey": {
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.neutral.1200}"
+            },
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.neutral.1200}"
+            }
+          },
+          "border": {
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.neutral.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.active}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.neutral.700}"
+            }
+          }
+        },
+        "free": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.neutral.bg.active.default}"
+          }
+        },
+        "yellow": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.border.active}"
+            },
+            "rsvpBusy": {
+              "$type": "color",
+              "$value": "{primitives.yellow.800}"
+            },
+            "rsvpFree": {
+              "$type": "color",
+              "$value": "{semantic.warning.border.strong}"
+            }
+          },
+          "text": {
+            "free": {
+              "$type": "color",
+              "$value": "{primitives.yellow.1200}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.yellow.1200}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.yellow.700}"
+            }
+          }
+        }
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{semantic.neutral.bg.subtle}"
+      }
+    }
+  }
+]

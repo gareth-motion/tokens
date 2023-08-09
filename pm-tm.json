@@ -1,0 +1,112 @@
+[
+  {
+    "fileName": "PM/TM Components.Light.tokens.json",
+    "body": {
+      "list": {
+        "row": {
+          "bg": {
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.hover}"
+            }
+          }
+        },
+        "card": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.default}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.default}"
+            }
+          }
+        }
+      },
+      "container": {
+        "bg": {
+          "$type": "color",
+          "$value": "{semantic.neutral.bg.subtle}"
+        }
+      },
+      "kanban": {
+        "card": {
+          "border": {
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.default}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.default}"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "fileName": "PM/TM Components.Dark.tokens.json",
+    "body": {
+      "list": {
+        "row": {
+          "bg": {
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.default}"
+            }
+          }
+        },
+        "card": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.subtle}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.default}"
+            }
+          }
+        }
+      },
+      "container": {
+        "bg": {
+          "$type": "color",
+          "$value": "{semantic.neutral.bg.default}"
+        }
+      },
+      "kanban": {
+        "card": {
+          "border": {
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.default}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.default}"
+            }
+          }
+        }
+      }
+    }
+  }
+]
