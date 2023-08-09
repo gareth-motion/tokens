@@ -2,7 +2,191 @@
   {
     "fileName": "PM/TM Components.Light.tokens.json",
     "body": {
+      "autoschedule-toggle": {
+        "bg": {
+          "on": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.purple.800}"
+            }
+          },
+          "off": {
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.default}"
+            }
+          }
+        },
+        "icon": {
+          "on": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.purple.900}"
+            }
+          },
+          "off": {
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.subtle}"
+            }
+          }
+        },
+        "circle": {
+          "off": {
+            "$type": "color",
+            "$value": "{primitives.global.white}"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "{primitives.global.white}"
+          }
+        }
+      },
+      "label": {
+        "grey": {
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.neutral.text.default}"
+          },
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.neutral.bg.active.default}"
+          }
+        },
+        "red": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.error.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.error.text.strong}"
+          }
+        },
+        "yellow": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.warning.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.warning.text.strong}"
+          }
+        },
+        "cyan": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.cyan.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.cyan.text.strong}"
+          }
+        },
+        "teal": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.teal.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.teal.text.strong}"
+          }
+        },
+        "blue": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.blue.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.blue.text.strong}"
+          }
+        },
+        "purple": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.purple.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.purple.text.strong}"
+          }
+        },
+        "orange": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.orange.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.orange.text.strong}"
+          }
+        },
+        "pink": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.pink.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.pink.text.strong}"
+          }
+        },
+        "green": {
+          "bg": {
+            "$type": "color",
+            "$value": "{semantic.success.bg.active.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.success.text.strong}"
+          }
+        }
+      },
+      "kanban": {
+        "card": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.hover}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.default}"
+            }
+          }
+        }
+      },
       "list": {
+        "card": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.default}"
+            }
+          },
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.default}"
+            }
+          }
+        },
         "row": {
           "bg": {
             "hover": {
@@ -10,46 +194,12 @@
               "$value": "{semantic.neutral.bg.hover}"
             }
           }
-        },
-        "card": {
-          "bg": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.bg.default}"
-            }
-          },
-          "border": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.default}"
-            }
-          }
         }
       },
       "container": {
         "bg": {
           "$type": "color",
-          "$value": "{semantic.neutral.bg.subtle}"
-        }
-      },
-      "kanban": {
-        "card": {
-          "border": {
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.hover}"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.default}"
-            }
-          },
-          "bg": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.bg.default}"
-            }
-          }
+          "$value": "{semantic.neutral.bg.disabled}"
         }
       }
     }
@@ -57,26 +207,196 @@
   {
     "fileName": "PM/TM Components.Dark.tokens.json",
     "body": {
-      "list": {
-        "row": {
-          "bg": {
+      "autoschedule-toggle": {
+        "bg": {
+          "on": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.purple.600}"
+            }
+          },
+          "off": {
             "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.neutral.600}"
+            }
+          }
+        },
+        "icon": {
+          "on": {
+            "default": {
+              "$type": "color",
+              "$value": "{primitives.purple.1000}"
+            }
+          },
+          "off": {
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.subtle}"
+            }
+          }
+        },
+        "circle": {
+          "off": {
+            "$type": "color",
+            "$value": "{semantic.neutral.bg.default}"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "{primitives.neutral.100}"
+          }
+        }
+      },
+      "label": {
+        "grey": {
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.neutral.text.default}"
+          },
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.neutral.700}"
+          }
+        },
+        "red": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.red.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.error.text.strong}"
+          }
+        },
+        "yellow": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.yellow.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.warning.text.strong}"
+          }
+        },
+        "cyan": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.cyan.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.cyan.text.strong}"
+          }
+        },
+        "teal": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.teal.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.teal.text.strong}"
+          }
+        },
+        "blue": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.blue.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.blue.text.strong}"
+          }
+        },
+        "purple": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.purple.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.purple.text.strong}"
+          }
+        },
+        "orange": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.orange.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.orange.text.strong}"
+          }
+        },
+        "pink": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.pink.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.pink.text.strong}"
+          }
+        },
+        "green": {
+          "bg": {
+            "$type": "color",
+            "$value": "{primitives.green.700}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.success.text.strong}"
+          }
+        }
+      },
+      "kanban": {
+        "card": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.hover}"
+            }
+          },
+          "bg": {
+            "default": {
               "$type": "color",
               "$value": "{semantic.neutral.bg.active.default}"
             }
           }
-        },
+        }
+      },
+      "list": {
         "card": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.default}"
+            }
+          },
           "bg": {
             "default": {
               "$type": "color",
               "$value": "{semantic.neutral.bg.subtle}"
             }
-          },
-          "border": {
-            "default": {
+          }
+        },
+        "row": {
+          "bg": {
+            "hover": {
               "$type": "color",
-              "$value": "{semantic.neutral.border.default}"
+              "$value": "{semantic.neutral.bg.active.default}"
             }
           }
         }
@@ -85,26 +405,6 @@
         "bg": {
           "$type": "color",
           "$value": "{semantic.neutral.bg.default}"
-        }
-      },
-      "kanban": {
-        "card": {
-          "border": {
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.hover}"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.default}"
-            }
-          },
-          "bg": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.bg.active.default}"
-            }
-          }
         }
       }
     }
