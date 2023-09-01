@@ -13,11 +13,11 @@
           "off": {
             "hover": {
               "$type": "color",
-              "$value": "{semantic.neutral.bg.active.hover}"
+              "$value": "{primitives.neutral.800}"
             },
             "default": {
               "$type": "color",
-              "$value": "{semantic.neutral.bg.active.default}"
+              "$value": "{primitives.neutral.700}"
             }
           }
         },
@@ -31,11 +31,11 @@
           "off": {
             "hover": {
               "$type": "color",
-              "$value": "{semantic.neutral.icon.default}"
+              "$value": "{semantic.neutral.icon.hover}"
             },
             "default": {
               "$type": "color",
-              "$value": "{semantic.neutral.icon.subtle}"
+              "$value": "{semantic.neutral.icon.default}"
             }
           }
         },
@@ -172,6 +172,12 @@
           }
         }
       },
+      "comment": {
+        "bg": {
+          "$type": "color",
+          "$value": "{semantic.neutral.bg.disabled}"
+        }
+      },
       "list": {
         "card": {
           "border": {
@@ -212,17 +218,17 @@
           "on": {
             "default": {
               "$type": "color",
-              "$value": "{primitives.purple.600}"
+              "$value": "{primitives.purple.800}"
             }
           },
           "off": {
             "hover": {
               "$type": "color",
-              "$value": "{semantic.neutral.bg.active.hover}"
+              "$value": "{primitives.neutral.800}"
             },
             "default": {
               "$type": "color",
-              "$value": "{primitives.neutral.600}"
+              "$value": "{primitives.neutral.700}"
             }
           }
         },
@@ -230,17 +236,17 @@
           "on": {
             "default": {
               "$type": "color",
-              "$value": "{primitives.purple.1000}"
+              "$value": "{primitives.purple.1100}"
             }
           },
           "off": {
             "hover": {
               "$type": "color",
-              "$value": "{semantic.neutral.icon.default}"
+              "$value": "{semantic.neutral.icon.hover}"
             },
             "default": {
               "$type": "color",
-              "$value": "{semantic.neutral.icon.subtle}"
+              "$value": "{semantic.neutral.icon.default}"
             }
           }
         },
@@ -251,7 +257,7 @@
           },
           "on": {
             "$type": "color",
-            "$value": "{primitives.neutral.100}"
+            "$value": "{primitives.purple.100}"
           }
         }
       },
@@ -362,7 +368,7 @@
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{semantic.neutral.border.default}"
+              "$value": "{semantic.neutral.border.subtle}"
             },
             "hover": {
               "$type": "color",
@@ -372,9 +378,15 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{semantic.neutral.bg.active.default}"
+              "$value": "{semantic.neutral.bg.subtle}"
             }
           }
+        }
+      },
+      "comment": {
+        "bg": {
+          "$type": "color",
+          "$value": "{semantic.neutral.bg.active.default}"
         }
       },
       "list": {

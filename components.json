@@ -2,6 +2,280 @@
   {
     "fileName": "Components.Light.tokens.json",
     "body": {
+      "buttonMuted": {
+        "error": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.bg.default}"
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{semantic.error.bg.active.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.error.bg.hover}"
+            }
+          },
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.icon.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.error.icon.disabled}"
+            }
+          },
+          "text": {
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.error.text.disabled}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.text.default}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          }
+        },
+        "onDark": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.1000)"
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.2000)"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.1500)"
+            }
+          },
+          "icon": {
+            "disabled": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.5000)"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.onDark}"
+            }
+          },
+          "text": {
+            "disabled": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.5000)"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.text.onDark}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          }
+        },
+        "warning": {
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.icon.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.warning.icon.disabled}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.text.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.warning.text.disabled}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          },
+          "bg": {
+            "pressed": {
+              "$type": "color",
+              "$value": "{semantic.warning.bg.active.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.warning.bg.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.bg.default}"
+            }
+          }
+        },
+        "primary": {
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.icon.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.primary.icon.disabled}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.text.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.primary.text.disabled}"
+            }
+          },
+          "bg": {
+            "pressed": {
+              "$type": "color",
+              "$value": "{semantic.primary.bg.active.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.primary.bg.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.bg.default}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          }
+        },
+        "secondary": {
+          "icon": {
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.disabled}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.default}"
+            }
+          },
+          "text": {
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.neutral.text.disabled}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.text.subtle}"
+            }
+          },
+          "bg": {
+            "pressed": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.hover}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.subtle}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          }
+        }
+      },
+      "keyboardShortcut": {
+        "onWarning": {
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.warning.text.strong}"
+          },
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.1000)"
+          }
+        },
+        "error": {
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(229, 72, 77, 0.1500)"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.error.text.default}"
+          }
+        },
+        "onDark": {
+          "text": {
+            "$type": "color",
+            "$value": "rgba(255, 255, 255, 0.9000)"
+          },
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(255, 255, 255, 0.1500)"
+          }
+        },
+        "primary": {
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(60, 97, 221, 0.1000)"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.primary.text.default}"
+          }
+        },
+        "warning": {
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(255, 178, 36, 0.1500)"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.warning.text.default}"
+          }
+        },
+        "default": {
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0500)"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.neutral.text.disabled}"
+          }
+        }
+      },
       "avatar": {
         "emptyError": {
           "icon": {
@@ -121,198 +395,6 @@
           "text": {
             "$type": "color",
             "$value": "{semantic.warning.text.onDark}"
-          }
-        }
-      },
-      "buttonMuted": {
-        "error": {
-          "icon": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.error.icon.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.error.icon.disabled}"
-            }
-          },
-          "text": {
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.error.text.disabled}"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.error.text.default}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "{semantic.error.bg.active.hover}"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.error.bg.active.default}"
-            }
-          }
-        },
-        "onDark": {
-          "icon": {
-            "disabled": {
-              "$type": "color",
-              "$value": "rgba(255, 255, 255, 0.5000)"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.icon.onDark}"
-            }
-          },
-          "text": {
-            "disabled": {
-              "$type": "color",
-              "$value": "rgba(255, 255, 255, 0.5000)"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.text.onDark}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "rgba(255, 255, 255, 0.1500)"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "rgba(255, 255, 255, 0.1000)"
-            }
-          }
-        },
-        "warning": {
-          "icon": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.warning.icon.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.warning.icon.disabled}"
-            }
-          },
-          "text": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.warning.text.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.warning.text.disabled}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "{semantic.warning.bg.hover}"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.warning.bg.default}"
-            }
-          }
-        },
-        "primary": {
-          "icon": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.primary.icon.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.primary.icon.disabled}"
-            }
-          },
-          "text": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.primary.text.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.primary.text.disabled}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "{semantic.primary.bg.active.hover}"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.primary.bg.active.default}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
-          }
-        },
-        "secondary": {
-          "icon": {
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.neutral.icon.disabled}"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.icon.default}"
-            }
-          },
-          "text": {
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.neutral.text.disabled}"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.text.subtle}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "{semantic.neutral.bg.active.default}"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.neutral.bg.hover}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
           }
         }
       },
@@ -635,7 +717,7 @@
       "modal": {
         "border": {
           "$type": "color",
-          "$value": "{semantic.neutral.border.default}"
+          "$value": "{semantic.neutral.border.subtle}"
         },
         "bg": {
           "$type": "color",
@@ -1015,7 +1097,7 @@
           "off": {
             "disabled": {
               "$type": "color",
-              "$value": "{semantic.neutral.icon.subtle}"
+              "$value": "{semantic.neutral.icon.onDark}"
             },
             "default": {
               "$type": "color",
@@ -1040,15 +1122,15 @@
           },
           "disabled": {
             "$type": "color",
-            "$value": "{semantic.neutral.bg.active.default}"
+            "$value": "{semantic.neutral.bg.subtle}"
           },
           "default": {
             "$type": "color",
-            "$value": "{semantic.neutral.bg.strong.default}"
+            "$value": "{primitives.neutral.600}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{semantic.neutral.bg.strong.hover}"
+            "$value": "{primitives.neutral.800}"
           }
         }
       },
@@ -1299,6 +1381,280 @@
   {
     "fileName": "Components.Dark.tokens.json",
     "body": {
+      "buttonMuted": {
+        "error": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.bg.default}"
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{semantic.error.bg.active.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.error.bg.hover}"
+            }
+          },
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.icon.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.error.icon.disabled}"
+            }
+          },
+          "text": {
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.error.text.disabled}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.error.text.default}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          }
+        },
+        "onDark": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.1000)"
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.2000)"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.1500)"
+            }
+          },
+          "icon": {
+            "disabled": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.5000)"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.onDark}"
+            }
+          },
+          "text": {
+            "disabled": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.5000)"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.text.onDark}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          }
+        },
+        "warning": {
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.icon.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.warning.icon.disabled}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.text.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.warning.text.disabled}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          },
+          "bg": {
+            "pressed": {
+              "$type": "color",
+              "$value": "{semantic.warning.bg.active.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.warning.bg.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.warning.bg.default}"
+            }
+          }
+        },
+        "primary": {
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.icon.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.primary.icon.disabled}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.text.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.primary.text.disabled}"
+            }
+          },
+          "bg": {
+            "pressed": {
+              "$type": "color",
+              "$value": "{semantic.primary.bg.active.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.primary.bg.hover}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.primary.bg.default}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          }
+        },
+        "secondary": {
+          "icon": {
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.disabled}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.icon.default}"
+            }
+          },
+          "text": {
+            "disabled": {
+              "$type": "color",
+              "$value": "{semantic.neutral.text.disabled}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.text.subtle}"
+            }
+          },
+          "bg": {
+            "pressed": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.hover}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.active.default}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{semantic.neutral.bg.subtle}"
+            }
+          },
+          "border": {
+            "focus": {
+              "$type": "color",
+              "$value": "{semantic.neutral.border.focus}"
+            }
+          }
+        }
+      },
+      "keyboardShortcut": {
+        "onWarning": {
+          "text": {
+            "$type": "color",
+            "$value": "{primitives.yellow.400}"
+          },
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.1500)"
+          }
+        },
+        "error": {
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(229, 72, 77, 0.1500)"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.error.text.default}"
+          }
+        },
+        "onDark": {
+          "text": {
+            "$type": "color",
+            "$value": "rgba(255, 255, 255, 0.9000)"
+          },
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(255, 255, 255, 0.1500)"
+          }
+        },
+        "primary": {
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(60, 97, 221, 0.2000)"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.primary.text.default}"
+          }
+        },
+        "warning": {
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(255, 178, 36, 0.1500)"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.warning.text.default}"
+          }
+        },
+        "default": {
+          "bg": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.3000)"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{semantic.neutral.text.disabled}"
+          }
+        }
+      },
       "avatar": {
         "emptyError": {
           "icon": {
@@ -1418,198 +1774,6 @@
           "text": {
             "$type": "color",
             "$value": "{semantic.warning.text.onDark}"
-          }
-        }
-      },
-      "buttonMuted": {
-        "error": {
-          "icon": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.error.icon.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.error.icon.disabled}"
-            }
-          },
-          "text": {
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.error.text.disabled}"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.error.text.default}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "{semantic.error.bg.active.hover}"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.error.bg.active.default}"
-            }
-          }
-        },
-        "onDark": {
-          "icon": {
-            "disabled": {
-              "$type": "color",
-              "$value": "rgba(255, 255, 255, 0.5000)"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.icon.onDark}"
-            }
-          },
-          "text": {
-            "disabled": {
-              "$type": "color",
-              "$value": "rgba(255, 255, 255, 0.5000)"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.text.onDark}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "rgba(255, 255, 255, 0.1500)"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "rgba(255, 255, 255, 0.1000)"
-            }
-          }
-        },
-        "warning": {
-          "icon": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.warning.icon.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.warning.icon.disabled}"
-            }
-          },
-          "text": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.warning.text.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.warning.text.disabled}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "{semantic.warning.bg.hover}"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.warning.bg.default}"
-            }
-          }
-        },
-        "primary": {
-          "icon": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.primary.icon.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.primary.icon.disabled}"
-            }
-          },
-          "text": {
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.primary.text.default}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.primary.text.disabled}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "{semantic.primary.bg.active.hover}"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.primary.bg.active.default}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
-          }
-        },
-        "secondary": {
-          "icon": {
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.neutral.icon.disabled}"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.icon.default}"
-            }
-          },
-          "text": {
-            "disabled": {
-              "$type": "color",
-              "$value": "{semantic.neutral.text.disabled}"
-            },
-            "default": {
-              "$type": "color",
-              "$value": "{semantic.neutral.text.subtle}"
-            }
-          },
-          "bg": {
-            "pressed": {
-              "$type": "color",
-              "$value": "{semantic.neutral.bg.active.default}"
-            },
-            "hover": {
-              "$type": "color",
-              "$value": "{semantic.neutral.bg.active.hover}"
-            }
-          },
-          "border": {
-            "focus": {
-              "$type": "color",
-              "$value": "{semantic.neutral.border.focus}"
-            }
           }
         }
       },
@@ -1845,7 +2009,7 @@
           },
           "icon": {
             "$type": "color",
-            "$value": "{primitives.brand.600}"
+            "$value": "{primitives.brand.1100}"
           },
           "bg": {
             "$type": "color",
@@ -1932,7 +2096,7 @@
       "modal": {
         "border": {
           "$type": "color",
-          "$value": "{semantic.neutral.border.strong}"
+          "$value": "{semantic.neutral.border.subtle}"
         },
         "bg": {
           "$type": "color",
@@ -2341,11 +2505,11 @@
           },
           "default": {
             "$type": "color",
-            "$value": "{semantic.neutral.bg.strong.default}"
+            "$value": "{primitives.neutral.700}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{semantic.neutral.bg.strong.hover}"
+            "$value": "{primitives.neutral.800}"
           }
         }
       },
