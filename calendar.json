@@ -1,11 +1,33 @@
 [
   {
     "fileName": "Calendar.Light.tokens.json",
-    "body": {
-      "bg": {
-        "$type": "color",
-        "$value": "{semantic.neutral.bg.default}"
-      }
-    }
+      "body": {
+        "bg": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.neutral.bg.default}"
+          },
+          "work-hours": {
+            "$type": "color",
+            "$value": "{primitives.neutral.100}"
+          }
+        }
+     }
+  },
+  {
+    "fileName": "Calendar.Dark.tokens.json",
+      "body": {
+        "bg": {
+          "default": {
+            "$type": "color",
+            "$value": "{semantic.neutral.bg.subtle}"
+          },
+          "work-hours": {
+            "$type": "color",
+            "$value": "{semantic.neutral.bg.default}"
+          }
+        }
+     }
   }
+
 ]
