@@ -9,7 +9,7 @@
           },
           "work-hours": {
             "$type": "color",
-            "$value": "{primitives.neutral.100}"
+            "$value": "{semantic.neutral.bg.active.default}"
           }
         },
         "event": {
