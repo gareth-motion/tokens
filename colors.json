@@ -1216,6 +1216,30 @@
               "$value": "{primitives.red.300}"
             }
           }
+        },
+        "meet": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "#078377"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "#0a6158"
+            }
+          }
+        },
+        "teams": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "#4f57be"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "#373eae"
+            }
+          }
         }
       },
       "primitives": {
@@ -2997,6 +3021,30 @@
             "default": {
               "$type": "color",
               "$value": "{primitives.red.500}"
+            }
+          }
+        },
+        "meet": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "#078377"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "#0a6158"
+            }
+          }
+        },
+        "teams": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "#4f57be"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "#373eae"
             }
           }
         }
